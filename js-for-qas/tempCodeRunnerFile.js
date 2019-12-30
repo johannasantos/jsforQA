@@ -1,7 +1,4 @@
-var num = 1
+var sentence = "    HELLO WORLD!     "
 
-if (1 == 1) {
-    console.log("if statement: " + num)
-}
-
-console.log(" outside if statement: " + num)
+var clean = sentence.trim()
+console.log(clean)
